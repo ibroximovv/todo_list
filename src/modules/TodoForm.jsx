@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { Context } from '../Context/Context'
 
-const TodoForm = ({setTodos, todos}) => {
+const TodoForm = () => {
+  const {setTodos, todos} = useContext(Context)
   function handleAddTodo(params) {
     params.preventDefault()
     let todo = {
