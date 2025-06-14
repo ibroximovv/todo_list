@@ -3,3 +3,15 @@
 body {
     background-image: linear-gradient(to right, #fbc2eb, #a6c1ee);
 }
+
+.check-true {
+    background-image: url('src/assets/images/check2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.containers {
+    padding: 0 1000px;
+    margin: 0 auto;
+}
