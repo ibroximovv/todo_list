@@ -25,7 +25,7 @@ const TodoItem = ({item, todos, setTodos, index}) => {
                 <button onClick={handleEdit} className='p-2 rounded-md bg-blue-900 text-white w-[100px]'>Edit</button>
                 <button onClick={handleDelete} className='p-2 rounded-md bg-red-900 text-white w-[100px]'>Delete</button>
                 <label htmlFor="">
-                    <input className='check-input hidden ' type="checkbox" />
+                    <input className='check-input hidden ' placeholder='typing...' type="checkbox" />
                     <div onClick={handleCheckClick} className={`check-wrapper ${item.isComplated ? 'check-true' : ''} w-5 h-5 rounded-full border-[1px] border-slate-500`}></div>
                 </label>
             </div>
